@@ -1,0 +1,25 @@
+{
+  "name": "protractorplusdocker",
+  "version": "1.0.0",
+  "description": "test to run tests using protractor and Jenkins as CI ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gcervant1/ProtractorPlusDocker.git"
+  },
+  "author": "Gonzalo Cervantes",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/gcervant1/ProtractorPlusDocker/issues"
+  },
+  "homepage": "https://github.com/gcervant1/ProtractorPlusDocker#readme",
+  "devDependencies": {
+    "jasmin": "0.0.2",
+    "jasmine-data-provider": "^2.2.0",
+    "protractor": "^5.4.1",
+    "webdriver-manager": "^12.1.0"
+  }
+}
