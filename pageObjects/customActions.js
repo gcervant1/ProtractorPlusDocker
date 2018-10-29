@@ -11,7 +11,7 @@
 
 
     /**
-     * @description Howtire custom click, wait for element to be enable and visible in order to perform the action
+     * @description Custom click, wait for element to be enable and visible in order to perform the action
      * @return Click Action.
      */
     ElementFinder.prototype.clicks = function () {
@@ -20,7 +20,7 @@
     };
 
     /**
-     * @description Howtire custom clear, wait for element to be visible in order to perform the action.
+     * @description Custom clear, wait for element to be visible in order to perform the action.
      * @return Clear Action.
      */
     ElementFinder.prototype.clears = function () {
@@ -29,7 +29,7 @@
     };
 
     /**
-     * @description Howtire custom hover, wait for element to be visible in order to perform a mouse move to element.
+     * @description Custom hover, wait for element to be visible in order to perform a mouse move to element.
      * @return mouseMove action.
      */
     ElementFinder.prototype.hoverElement = function () {
@@ -38,7 +38,7 @@
     };
 
     /**
-     * @description Howtire custom SendKeys, wait for element to be visible in order to perform the action.
+     * @description Custom SendKeys, wait for element to be visible in order to perform the action.
      * @return sendKeys action
      */
     ElementFinder.prototype.enterText = function (text) {
@@ -49,7 +49,7 @@
     };
 
     /**
-     * @description Howtire custom Hit Key, wait for element to be visible in order to Hit with a Key such as ESCAPE, TAB, ENTER, etc....
+     * @description Custom Hit Key, wait for element to be visible in order to Hit with a Key such as ESCAPE, TAB, ENTER, etc....
      * @param {String} key
      * @return sendKeys action.
      */
@@ -59,7 +59,7 @@
     };
 
     /**
-     * @description Howtire custom isDisplayed, wait for element to be visible in order to perform the action.
+     * @description Custom isDisplayed, wait for element to be visible in order to perform the action.
      * @return {webdriver.promise.Promise.<boolean>|*}
      */
     ElementFinder.prototype.isElementDisplayed = function (setTimeOut) {
@@ -69,7 +69,7 @@
     };
 
     /**
-     * @description Howtire custom getCssValue, wait for element to be visible in order to perform the action.
+     * @description Custom getCssValue, wait for element to be visible in order to perform the action.
      * @param value
      * @return {webdriver.promise.Promise.<string>}
      */
@@ -80,7 +80,7 @@
 
 
     /**
-     * @description Howtire custom function to wait for element to be present then scroll into view.
+     * @description Custom function to wait for element to be present then scroll into view.
      * @return {*}
      */
     ElementFinder.prototype.scrollToView = function () {
@@ -89,7 +89,7 @@
     };
 
     /**
-     * @description Howtire custom isPresent, wait for element to be present in order to perform the action.
+     * @description Custom isPresent, wait for element to be present in order to perform the action.
      * @return {ElementFinder}
      */
     ElementFinder.prototype.IsElementPresent = function (setTimeOut) {
@@ -99,7 +99,7 @@
     };
 
     /**
-     * @description Hotwire custom HasClass, wait for element to be present then get 'Class' attribute.
+     * @description Custom HasClass, wait for element to be present then get 'Class' attribute.
      * @return {string|webdriver.promise.Promise.<string>}
      */
     ElementFinder.prototype.getClassName = function () {
@@ -108,7 +108,7 @@
     };
 
     /**
-     * @description Hotwire custom getAttribute, wait dor element to be present and perform the action.
+     * @description Custom getAttribute, wait dor element to be present and perform the action.
      * @param attribute
      * @return {string|webdriver.promise.Promise.<string>}
      */
@@ -118,7 +118,7 @@
     };
 
     /**
-     * @description Hotwire custom action, wait for element to be invisible.
+     * @description Custom action, wait for element to be invisible.
      * @return {webdriver.promise.Promise.<T>|*}
      */
     ElementFinder.prototype.waitToDissapear = function () {
@@ -126,7 +126,7 @@
     };
 
     /**
-     * @description Hotwire custom action, wait for element to be visible.
+     * @description Custom action, wait for element to be visible.
      * @return {webdriver.promise.Promise.<T>|*}
      */
     ElementFinder.prototype.waitForVisibility = function () {
@@ -134,7 +134,7 @@
     };
 
     /**
-     * @description Hotwire custom action, wait for element to be present.
+     * @description Custom action, wait for element to be present.
      * @return {webdriver.promise.Promise.<T>|*}
      */
     ElementFinder.prototype.waitForPresence = function () {
@@ -150,7 +150,7 @@
     };
 
     /**
-     * @description Hotwire custom getText(), wait for element to be visible then perform the action.
+     * @description Custom getText(), wait for element to be visible then perform the action.
      */
     ElementFinder.prototype.getElementText = function () {
         browser.wait(EC.visibilityOf(this), timeout);
@@ -158,7 +158,7 @@
     };
 
     /**
-     * @description Hotwire custom function to get count of a list of elements.
+     * @description Custom function to get count of a list of elements.
      * @return {*}
      */
     ElementArrayFinder.prototype.getCountFromList = function () { // jshint ignore:line
