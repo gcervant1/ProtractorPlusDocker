@@ -1,6 +1,6 @@
 /**
  * @author Gonzalo Cervantes
- * @description Library created in order to use custom hotwire actions that can be edited in order to avoid code duplication.
+ * @description Library created in order to use custom actions that can be edited in order to avoid code duplication.
  */
 (function () {
     'use strict';
