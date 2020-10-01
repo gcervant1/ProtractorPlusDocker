@@ -25,7 +25,7 @@ var LoginData = function () {
         },
         {
             user: 'gonzalo.spe',
-            password: 'R@m1r01984',
+            password: '*****',
             validEmail: true,
             expected: 'Success'
         }
